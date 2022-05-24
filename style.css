@@ -1,0 +1,65 @@
+h1 {
+    color:rgb(216, 111, 169);
+    padding: 15px;
+}
+.header *{
+    border:solid;
+}
+.header{
+    background-color: #8accd1;
+    display :flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.header p{
+    margin : 100px;
+}
+.objects{
+    text-align: center;
+    background-color:#8accd1 ;
+    padding: 15px;
+}
+objects p{
+    margin :100px;
+}
+.object1{
+    display:flex;
+    background-color:#ffef61 ;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.object1 *{
+    border:solid;
+    color:rgb(80, 7, 80)
+}
+.object1 p{
+    margin: 100px;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    background-color:#8accd1;
+}
+a:link{
+    color:white
+
+}
+a:visited{
+    color:white
+}
+.object1 {
+    position:relative;
+}
+.object1 p{
+    position:absolute;
+    top :50%;
+    left:10%;
+   
+    opacity:0;
+} 
+.object1:hover p{
+    opacity:1;
+}
+
